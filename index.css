@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+* {
+	font-family: 'Roboto Mono', monospace;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	height: 200vh;
+/*	cursor: none;*/
+}
+
+ul {
+	list-style: none;
+}
+
+.title {
+	font-size: 4rem;
+} 
+
+.sub-title {
+	font-size: 2.5rem;
+} 
+
+.flex {
+	display: flex;
+}
+
+.nav {
+	color: white;
+	margin: 0;
+	gap: 2rem;
+	font-size: 2rem;
+}
+
+.text-center {
+	display: flex;
+	align-items: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	color: white;
+	flex-direction: column;
+}
+
+h1 {
+	margin: 0;
+}
+
+#navbar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 7vh;
+	background-color: rgba(10, 10, 10, .8);
+}
+
+#header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: inset 100vw 100vh rgba(0, 0, 0, .45);
+	height: 30rem;
+	background-image: url('https://images.pexels.com/photos/2441454/pexels-photo-2441454.jpeg?cs=srgb&dl=pexels-harrison-candlin-2441454.jpg&fm=jpg&_gl=1*1b5rn2d*_ga*MTU4NTI5NjcyOS4xNjY4NDQ0NTU0*_ga_8JE65Q40S6*MTY2ODQ0NDU1NC4xLjEuMTY2ODQ0NDU5MS4wLjAuMA..');
+	height: 93vh;
+}
+
+#cursor {
+	background-color: blue;
+	width: .8rem;
+	height: .8rem;
+	border-radius: 100%;
+	position: absolute;
+}
+
+.img-card {
+
+}
+
+.card-text {
+	color: white;
+	margin-top: .5rem;
+}
+
+.section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(40, 38, 38, .78);
+	height: 50vh;
+}
+
+#footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(40, 38, 38, .78);
+	height: 5vh;
+}
+
+.card {
+	padding: 2rem;
+	background: rgba(200, 200, 200, 0.59);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(7.7px);
+	-webkit-backdrop-filter: blur(7.7px);
+}
+
+.inline-cards {
+	display: flex;
+	gap: 2rem;
+}
+
+hr {
+	padding: 0;
+	margin: 0;
+}
+
+.scattered-cards {
+	display: flex;
+	flex-direction: column;
+}
+
+.projects {
+	background-color: rgba(40, 38, 38, .78);
+}
+
+.project {
+	padding: 2rem;
+	background: rgba(200, 200, 200, 0.59);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(7.7px);
+	-webkit-backdrop-filter: blur(7.7px);
+	margin-top: 2rem;
+}
+
+#project-container {
+	padding: 5rem;
+}
+
+a {
+	margin-left: 1rem;
+	align-self: center;
+}
